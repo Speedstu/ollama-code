@@ -2,7 +2,7 @@
 
 `ollama-code` runs the published Claude Code CLI behind a local Anthropic-compatible Ollama shim, then patches the visible branding and defaults for local-first use.
 
-![ollama-code UI](assets/claude-npm-img.png)
+![ollama-code UI](assets/ollama-code-ui.png)
 
 ## Goals
 
