@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+
+.upstream/.ollama-brand-patched-v*
+anthropic-ai-claude-code-2.1.91.tgz
+
+*.log

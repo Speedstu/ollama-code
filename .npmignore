@@ -1,0 +1,5 @@
+src/
+assets/
+docs/
+anthropic-ai-claude-code-2.1.91.tgz
+.upstream/.ollama-brand-patched*

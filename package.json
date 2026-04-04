@@ -1,0 +1,27 @@
+{
+  "name": "ollama-code",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Local-first coding CLI that runs the published Claude Code client against Ollama.",
+  "license": "UNLICENSED",
+  "bin": {
+    "ollama-code": "./bin/ollama-code.mjs"
+  },
+  "scripts": {
+    "start": "node ./bin/ollama-code.mjs",
+    "chat": "node ./bin/ollama-code.mjs",
+    "help": "node ./bin/ollama-code.mjs --help",
+    "check": "node --check ./bin/ollama-code.mjs && node --check ./bin/anthropic-ollama-shim.mjs"
+  },
+  "keywords": [
+    "ollama",
+    "cli",
+    "agent",
+    "coding",
+    "local-llm"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
